@@ -13,7 +13,7 @@ setup(
     description='Utilities for simplifying interaction with the Canvas LMS via canvasapi',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/canvasapiutils',  # Optional if you use GitHub
+    url='https://github.com/btech-cdd/canvasapiutils',  # Optional if you use GitHub
     license='MIT',
     classifiers=[
         'Programming Language :: Python :: 3',

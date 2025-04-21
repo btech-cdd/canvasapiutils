@@ -1,0 +1,36 @@
+Metadata-Version: 2.4
+Name: canvasapiutils
+Version: 0.1.0
+Summary: Utilities for simplifying interaction with the Canvas LMS via canvasapi
+Home-page: https://github.com/btech-cdd/canvasapiutils
+Author: Joshua Hveem
+Author-email: jhveem@btech.edu
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: canvasapi>=3.0.0
+Requires-Dist: requests>=2.25.0
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# CanvasAPIUtils
+
+A small utility package to simplify Canvas LMS API interactions using the `canvasapi` Python client.
+
+## Installation
+
+```bash
+pip install canvasapiutils

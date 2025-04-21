@@ -65,6 +65,13 @@ def canvas_get(url, req_data, page=1, res_data=None):
 
     return res_data
 
+def check_course_has_blueprint(course):
+  blueprints = course.list_blueprint_subscriptions()
+  for blueprint in blueprints:
+    return True
+
+  return False
+
 def init_canvas(api_key=None, url=None):
     if api_key is None:
         api_key = os.getenv("CANVAS_API_KEY")

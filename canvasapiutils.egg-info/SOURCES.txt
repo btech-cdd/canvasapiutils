@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+canvasapiutils/__init__.py
+canvasapiutils.egg-info/PKG-INFO
+canvasapiutils.egg-info/SOURCES.txt
+canvasapiutils.egg-info/dependency_links.txt
+canvasapiutils.egg-info/requires.txt
+canvasapiutils.egg-info/top_level.txt
